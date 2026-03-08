@@ -1,0 +1,44 @@
+{
+    "targets": [
+        {
+            "name": "Google",
+            "url": "https://www.google.com",
+            "method": "GET",
+            "expected_status": 200,
+            "keyword": null,
+            "enabled": true
+        },
+        {
+            "name": "GitHub",
+            "url": "https://www.github.com",
+            "method": "GET",
+            "expected_status": 200,
+            "keyword": null,
+            "enabled": true
+        },
+        {
+            "name": "AWS Console",
+            "url": "https://console.aws.amazon.com",
+            "method": "GET",
+            "expected_status": 200,
+            "keyword": null,
+            "enabled": true
+        },
+        {
+            "name": "HTTPBin Health Check",
+            "url": "https://httpbin.org/status/200",
+            "method": "GET",
+            "expected_status": 200,
+            "keyword": null,
+            "enabled": true
+        },
+        {
+            "name": "HTTPBin Simulated Failure",
+            "url": "https://httpbin.org/status/503",
+            "method": "GET",
+            "expected_status": 200,
+            "keyword": null,
+            "enabled": true
+        }
+    ]
+}
