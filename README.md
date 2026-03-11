@@ -185,7 +185,7 @@ python main.py
 - [ ] Dashboard integration via exported JSON
 - [ ] Docker containerization
 - [ ] Power BI uptime dashboard integration
-- [ ] Unit tests with pytest
+- [x] Unit tests with pytest
 
 ---
 
