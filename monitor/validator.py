@@ -18,7 +18,7 @@ def validate_results(probe_results):
             issues.append(f"Target is DOWN — status code: {result['status_code']}")
 
         # Check response time
-        if result['response_time_ms'] and result['response_time_ms'] > RESPONSE_TIME_THRESHOLD:
+        if result['response_time_ms'] and result['response_time_ms'] >= RESPONSE_TIME_THRESHOLD:
             issues.append(
                 f"Slow response — {result['response_time_ms']}ms "
                 f"exceeds threshold of {RESPONSE_TIME_THRESHOLD}ms"
